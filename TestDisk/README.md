@@ -6,18 +6,11 @@ Test Disk**
 TestDisk step by step to recover a missing partition and repair a
 corrupted one.
 
-1\. Log creation\]/
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 All hard drives should be detected and listed with the correct size by
 TestDisk:
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   Use up/down arrow keys to select your hard drive with the lost
     > partition/
@@ -32,10 +25,6 @@ TestDisk displays the partition table types. ![menu partition table
 type](media/image1.png){width="6.268055555555556in"
 height="3.165277777777778in"}
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
 -   Select the partition table type - usually the default value is the
     > correct one as TestDisk auto-detects the partition table type.
 
@@ -47,13 +36,7 @@ TestDisk displays the menus (also see [[TestDisk Menu
 Items]{.underline}](https://www.cgsecurity.org/wiki/Running_TestDisk)).![Analyse](media/image8.png){width="6.267716535433071in"
 height="3.1666666666666665in"}
 
-  -----------------------------------------------------------------------
-  ![menus](media/image3.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
+ 
 -   Use the default menu \"Analyse\" to check your current partition
     > structure and search for lost partitions.
 
@@ -62,10 +45,7 @@ height="3.1666666666666665in"}
 Now, your current partition structure is listed. Examine your current
 partition structure for missing partitions and errors.
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
+ 
 The first partition is listed twice which points to a corrupted
 partition or an invalid partition table entry.\
 Invalid NTFS boot points to a faulty NTFS boot sector, so it\'s a
@@ -102,17 +82,9 @@ Quick Search for partitions
 |                                 | 55555 |                           |
 |                                 | 6in"} |                           |
 +=================================+=======+===========================+
-+---------------------------------+-------+---------------------------+
 
 During the ***Quick Search***, TestDisk has found two partitions
 including the missing logical partition labeled ***Partition 3***.
-
-  -----------------------------------------------------------------------
-  ![first results](media/image6.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   Highlight this partition and press ***p*** to list your files (to go
     > back to the previous display, press q to Quit, Files listed in red
@@ -124,12 +96,6 @@ All directories and data are correctly listed.
 
 Save the partition table or search for more partitions?
 
-  -----------------------------------------------------------------------
-  ![menu search!](media/image12.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   ***When all partitions are available*** and data correctly listed,
     > you should go to the menu **Write** to save the partition
@@ -147,13 +113,6 @@ A partition is still missing: Deeper Search
 backup boot superblock, ext2/ext3 backup superblock to detect more
 partitions,
 
-  ------------------------------------------------------------------------------------------------------------------
-  it will scan each cylinder        ![quick                                                  (click on thumb).
-                                    search](media/image9.png){width="0.7291666666666666in"   
-                                    height="0.3680555555555556in"}                           
-  --------------------------------- -------------------------------------------------------- -----------------------
-
-  ------------------------------------------------------------------------------------------------------------------
 
 After the Deeper Search, the results are displayed as follows:\
 The first partition ***\"Partition 1\"*** was found by using backup boot
@@ -165,24 +124,8 @@ listed as deleted. Both partitions are listed with status ***D*** for
 deleted, because they overlap each other. You need to identify which
 partition to recover.
 
-  -----------------------------------------------------------------------
-  ![results deeper
-  search!](media/image14.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
 -   Highlight the first partition Partition 2 and press ***p*** to list
     > its data.
-
-  ----------------------------------------------------------------------------------------------------------------
-  The file system of the upper logical partition (label ![damaged file                               (click on
-  Partition 2) is damaged                               system](media/image4.png){width="0.3125in"   thumb).
-                                                        height="0.1527777777777778in"}               
-  ----------------------------------------------------- -------------------------------------------- -------------
-
-  ----------------------------------------------------------------------------------------------------------------
 
 -   Press q for Quit to go back to the previous display.
 
@@ -192,13 +135,6 @@ partition to recover.
 -   Highlight the second partition Partition 2 below
 
 -   Press p to list its files.
-
-  -----------------------------------------------------------------------
-  ![list files](media/image5.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 It works, your files are listed, you have found the correct partition!
 
@@ -219,10 +155,6 @@ Using the left/right arrow keys, change the status of the selected
 partition from D(eleted) to ***L(ogical)***. This way you will be able
 to recover this partition.
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
 Hint: read [***[How to recognize primary and logical
 partitions?]{.underline}***](https://www.cgsecurity.org/wiki/Partition_recognition_primary_and_logical)\
 Note: If a partition is listed \*(bootable) but if you don\'t boot from
@@ -236,12 +168,6 @@ It\'s now possible to write the new partition structure.\
 ***Note:*** The extended partition is automatically set. TestDisk
 recognizes this using the different partition structure.
 
-  -----------------------------------------------------------------------
-  ![menu write](media/image7.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   If **all partitions are listed** and only in this case, confirm
     > at ***Write*** with Enter, y and OK.
@@ -254,12 +180,6 @@ The boot sector of the first partition named Partition 1 is still
 damaged. It\'s time to fix it. The status of the NTFS boot sector is bad
 and the backup boot sector is valid. Boot sectors are not identical.
 
-  -----------------------------------------------------------------------
-  ![backup bs](media/image2.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   To copy the backup of the boot sector over the boot sector,
     > select ***Backup BS***, validate with Enter, use y to confirm and
@@ -269,24 +189,11 @@ More information about repairing your boot sector under [[TestDisk Menu
 Items]{.underline}](https://www.cgsecurity.org/wiki/Running_TestDisk).
 The following message is displayed:
 
-  -----------------------------------------------------------------------
-  ![after backup bs](media/image11.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-
 The boot sector and its backup are now both OK and identical: the NTFS
 boot sector has been successfully recovered.
 
 -   Press Enter to quit.
 
-  -----------------------------------------------------------------------
-  ![reboot](media/image10.png){width="6.268055555555556in"
-  height="3.165277777777778in"}
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
 
 -   TestDisk displays ***You have to restart your Computer to access
     > your data*** so press Enter a last time and reboot your computer.
