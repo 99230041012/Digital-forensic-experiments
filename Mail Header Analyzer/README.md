@@ -8,7 +8,6 @@ To analyze email headers and detect possible spoofing using Mail Header Analyzer
 - Email Clients (Gmail, Outlook, Yahoo)
 - MXToolbox / G Suite Toolbox
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7b580c7f-d097-4bb5-ae25-f58e101fe60c" />
 
 ## Procedure
 1. **Access Header**:
@@ -35,6 +34,7 @@ To analyze email headers and detect possible spoofing using Mail Header Analyzer
 
 ---
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7b580c7f-d097-4bb5-ae25-f58e101fe60c" />
 ## Result
 - Extracted and analyzed headers with MHA.
 - Identified anomalies in SPF/DKIM/DMARC.
