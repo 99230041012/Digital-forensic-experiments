@@ -6,55 +6,39 @@ To acquire and analyze forensic evidence (volatile and non-volatile memory) usin
 ## Tools Used
 - FTK Imager (Portable / Installed)
 - USB Pen Drive / HDD (for portable version)
-- Write Blocker (to prevent evidence modification)
+- Write Blocker
 
 ## Procedure
 
 ### Acquiring Volatile Memory
-1. Open **FTK Imager** → Click on **Capture Memory**.
-2. Options available:
-   - **Include Pagefile (pagefile.sys):** Stores extra volatile data when RAM is full.
-   - **Include AD1 file:** Creates an FTK image file for later use.
-3. Click **Capture Memory** to start acquisition.
-4. Once complete, a `.mem` file will be generated in the chosen destination folder.
-
-📌 **Note:** Pagefile often contains valuable evidence. Always enable this option.
+1. Open **FTK Imager** → Click **Capture Memory**.
+2. Options:
+   - **Include Pagefile (pagefile.sys):** Stores additional volatile data.
+   - **AD1 file option:** Creates an FTK-specific image.
+3. Click **Capture Memory** → A `.mem` file is generated.
 
 ---
 
 ### Acquiring Non-Volatile Memory (Disk Image)
 1. Open **FTK Imager** → Select **Create Disk Image**.
-2. Choose the source:
-   - Physical Drives (entire hard disk)
-   - Logical Drives (partitions)
-   - Image Files
-   - Folders / CDs / DVDs
-3. Connect the source disk via **Write Blocker** to maintain integrity.
-4. Choose the required image format:
-   - **Raw (dd):** Simple, tool-independent format.
-   - **SMART:** Linux-oriented, compressed format.
-   - **E01:** Proprietary EnCase format with metadata, MD5 hash, and compression.
-   - **AFF / AFF4:** Open forensic format with advanced features.
-5. Enter **Case Details** (Examiner name, notes, case ID, etc.).
-6. Set **Image Destination**:
-   - File name
-   - Fragment size (set to `0` for a single file).
-7. Enable **Verify Image After Creation** for hash validation.
-8. Click **Start** → Acquisition begins.
-
-📌 **Note:** Larger images will take longer if verification is enabled, but this step is crucial for maintaining evidence integrity.
+2. Choose source (Physical drive, Logical drive, Image file, Folder/CD).
+3. Use **Write Blocker** for integrity.
+4. Select image format:
+   - Raw (dd)
+   - SMART
+   - E01
+   - AFF/AFF4
+5. Enter **Case Details** and set **Destination**.
+6. Enable **Verify Image** for hash validation.
+7. Click **Start** → Acquisition begins.
 
 ---
 
 ## Result
-- Successfully captured volatile memory (`.mem` file).
-- Acquired non-volatile disk images in multiple formats (Raw, E01, SMART, AFF).
-- Generated log file with acquisition details and verified hash values.
-
----
+- Captured volatile memory in `.mem` format.
+- Acquired non-volatile disk image (Raw/E01/SMART/AFF).
+- Verified hash values and generated log.
 
 ## Conclusion
-FTK Imager is a versatile tool for acquiring both volatile and non-volatile evidence.  
-By capturing memory dumps and forensic disk images while preserving integrity with write blockers and hash verification, investigators can ensure admissible and reliable digital evidence.
-
+FTK Imager allows secure acquisition of volatile and non-volatile memory with integrity maintained.
 
