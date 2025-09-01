@@ -66,14 +66,11 @@ Acquiring volatile memory using FTK imager
 >
 > As previously stated, this same tool can be used to collect a disk
 > image as well. Open FTK Imager and navigate to "Create Disk
-> Image".![](media/image5.jpg){width="4.848797025371828in"
-> height="0.8016666666666666in"}
+> Image".![](media/image5.jpg)
 >
 > Now select the source that you need to acquire.
 
-![](media/image8.jpg){width="2.806963035870516in"
-height="2.2354155730533685in"}
-
+![](media/image8.jpg)
 > NOTE: FTK Imager is capable of acquiring physical drives (physical
 > hard drives), logical drives (partitions), image files, contents of a
 > folder, or CDs/DVDs. Investigators can connect external HDDs into the
@@ -92,8 +89,7 @@ height="2.2354155730533685in"}
 > padding for any memory ranges that were intentionally skipped (i.e.,
 > device memory) or that could not be read by the acquisition tool,
 > which helps maintain spatial integrity (relative offsets among
-> data).![](media/image6.jpg){width="3.238124453193351in"
-> height="2.57125in"}
+> data).![](media/image6.jpg)
 >
 > SMART: This file format is designed for Linux file systems. This
 > format keeps the disk images as pure bitstreams with optional
