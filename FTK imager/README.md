@@ -118,13 +118,13 @@ height="2.2354155730533685in"}
 >
 > Now enter the case details.
 >
-> ![](media/image7.jpg){width="2.9031233595800523in"
+> ![](media/image7.jpg)
 > height="2.596874453193351in"}
 >
 > Add an image destination (where the image file will be saved), image
 > file name and fragment size.
 
-![](media/image2.jpg){width="2.809374453193351in" height="2.50125in"}
+![](media/image2.jpg)
 
 > Image Fragment Size (MB): this option will separate the image file
 > into multiple images and save them in the same destination. If you
@@ -137,11 +137,11 @@ height="2.2354155730533685in"}
 > increase the time taken to acquire your evidence, especially if you're
 > dealing with a large disk image size.
 >
-> ![](media/image3.jpg){width="2.574653324584427in"
+> ![](media/image3.jpg)
 > height="2.3161100174978126in"}
 >
 > Click "start" to start
-> acquiring.![](media/image10.jpg){width="2.687501093613298in"
+> acquiring.![](media/image10.jpg)
 > height="1.93125in"}
 >
 > Once acquiring is complete, it will create a text file including all
