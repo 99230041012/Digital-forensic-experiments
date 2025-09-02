@@ -20,6 +20,9 @@ website
 -   First, open Wireshark. You will see a list of all available network
     interfaces (e.g., \"Wi-Fi,\" \"Ethernet\").
 
+    <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e430bec0-f7d4-4b69-867a-ebc1ade9b6bd" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/43889fd5-10fd-46b8-9f9a-92d7e7080031" />
+
 -   Select the interface your computer is using to connect to the
     internet (in this case, Wi-Fi).
 
