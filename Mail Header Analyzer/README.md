@@ -10,8 +10,25 @@ To analyze email headers and detect possible spoofing using Mail Header Analyzer
 
 - Email Clients (Gmail, Outlook, Yahoo)
 
+-  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/279b745e-55e9-4b25-b040-1348e6c9df2a" />
+
 -
 - MXToolbox / G Suite Toolbox
+
+-
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/3cc46f54-ae39-41c6-97a4-0228eb7ae449" />
+<img width="1864" height="906" alt="Image" src="https://github.com/user-attachments/assets/8f21c6d3-85a2-4c86-b216-682fbdb269bb" />
+<img width="1228" height="711" alt="Image" src="https://github.com/user-attachments/assets/a8abf577-2a46-4380-adf2-d052b8db460a" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0ba27092-2cc9-474a-97ab-324ee97e60ee" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/71741f3b-551d-45d3-a09d-3957f20f9780" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/cd457841-0384-4adb-8875-46e19aceb8ef" />
+
+
+
+
+
+
+
 
 
 ## Procedure
