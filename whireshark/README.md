@@ -38,6 +38,10 @@ Username: testuser
 
 Password: password123
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8840a57f-9f74-4fb3-bdea-df46803467bc" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d061e771-7896-48ff-8d39-63282a243851" />
+
+
 -   Click the login button. The login will fail, but the data has
     already been sent across the network.
 
@@ -58,6 +62,12 @@ Password: password123
 
 -   In the Packet Details pane below the list, expand the following
     sections:
+
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/27c09c3c-1a5b-4a4e-ab52-95f31b5b3fd6" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7af52c34-4080-4c04-920b-9cf1e85a51de" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/ba80c9cb-5cf1-42cb-b015-779724489c62" />
+
 
 Hypertext Transfer Protocol HTML Form URL EncodedInside the \"HTML Form
 URL Encoded\" section, you will see the credentials you entered in
