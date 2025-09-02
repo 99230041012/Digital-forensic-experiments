@@ -3,6 +3,11 @@
 ## Objective
 To acquire and analyze forensic evidence (volatile and non-volatile memory) using FTK Imager.
 
+<img width="1904" height="1023" alt="Image" src="https://github.com/user-attachments/assets/cdb79f15-3167-475e-904e-710e0cb4e220" />
+<img width="1916" height="1064" alt="Image" src="https://github.com/user-attachments/assets/2249e588-5828-4850-9583-860635ac2150" />
+<img width="1440" height="1079" alt="Image" src="https://github.com/user-attachments/assets/fc8494ad-c3ff-4955-a312-912ef3f5de4e" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/f148534c-3f39-4c20-9a26-4a645879294d" />
+
 ## Tools Used
 - FTK Imager (Portable / Installed)
 - USB Pen Drive / HDD (for portable version)
@@ -12,25 +17,36 @@ To acquire and analyze forensic evidence (volatile and non-volatile memory) usin
 
 ### Acquiring Volatile Memory
 1. Open **FTK Imager** → Click **Capture Memory**.
-2. Options:
+ 
+ <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/cfe8dde3-39c7-4d10-8c2a-8ffcc9e63363" />
+<img width="1919" height="1074" alt="Image" src="https://github.com/user-attachments/assets/c3d24203-b782-4787-94f1-b571ac0d54cb" />
+
+4. Options:
    - **Include Pagefile (pagefile.sys):** Stores additional volatile data.
    - **AD1 file option:** Creates an FTK-specific image.
-3. Click **Capture Memory** → A `.mem` file is generated.
+5. Click **Capture Memory** → A `.mem` file is generated.
 
 ---
 
 ### Acquiring Non-Volatile Memory (Disk Image)
 1. Open **FTK Imager** → Select **Create Disk Image**.
-2. Choose source (Physical drive, Logical drive, Image file, Folder/CD).
-3. Use **Write Blocker** for integrity.
-4. Select image format:
+2. 
+3. <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/77f97bbe-3ae0-4056-9157-b91936244581" />
+
+4. Choose source (Physical drive, Logical drive, Image file, Folder/CD).
+ 
+ <img width="1910" height="1075" alt="Image" src="https://github.com/user-attachments/assets/33cd60fd-056e-416c-9ed3-56d2bf19dde7" />
+<img width="1904" height="1023" alt="Image" src="https://github.com/user-attachments/assets/cdb79f15-3167-475e-904e-710e0cb4e220" />
+
+7. Use **Write Blocker** for integrity.
+8. Select image format:
    - Raw (dd)
    - SMART
    - E01
    - AFF/AFF4
-5. Enter **Case Details** and set **Destination**.
-6. Enable **Verify Image** for hash validation.
-7. Click **Start** → Acquisition begins.
+9. Enter **Case Details** and set **Destination**.
+10. Enable **Verify Image** for hash validation.
+11. Click **Start** → Acquisition begins.
 
 ---
 
