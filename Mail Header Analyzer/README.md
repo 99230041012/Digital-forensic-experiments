@@ -9,6 +9,8 @@ To analyze email headers and detect possible spoofing using Mail Header Analyzer
 - <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/8dc11484-a580-4bea-97d1-791fa1833164" />
 
 - Email Clients (Gmail, Outlook, Yahoo)
+
+-
 - MXToolbox / G Suite Toolbox
 
 
@@ -25,6 +27,9 @@ To analyze email headers and detect possible spoofing using Mail Header Analyzer
 4. **Check Received Fields**:
    - Verify hops in reverse order.
    - Detect mismatched IPs/hosts.
+  
+   -  <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/085d301d-e28a-440b-b5c6-38c81937bbe7" />
+
 5. **Authentication Checks**:
    - SPF → Authorized sending server
    - DKIM → Content integrity
