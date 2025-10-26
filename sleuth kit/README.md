@@ -1,6 +1,7 @@
-Ex No - 06: Use Sleuth Kit to Analyze Digital Evidence
+Ex No - 06 Use Sleuth Kit to analyze digital evidence
 Description
-The Sleuth Kit (TSK) is a collection of command-line tools that allow you to analyze disk images and recover digital evidence. This document provides a step-by-step guide to using Sleuth Kit on a Windows machine to analyze digital evidence.
+The Sleuth Kit (TSK) is a collection of command-line tools that allow you to analyze disk images and recover digital evidence. Here's a step-by-step guide to using Sleuth Kit on a Windows machine to analyze digital evidence.
+
 
 Step 1: Install Sleuth Kit
 Download Sleuth Kit:
